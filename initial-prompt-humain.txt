@@ -1,0 +1,13 @@
+Ecrit moi un prompt pour lancer la commande openspec-propose en indiquant :
+intialiez un nouveau projet qui consiste utiliser deux téléphone portable et notamment leur caméra pour suivre le mouvement d'un cerf-volant qui évolue dans un espace donnée en 3D fixe qui peu atteindre de 20 à 50m de longueur /  largeur / hauteur.
+
+Le but est d'avoir une estimation de postiion en 3D et vitesse, direction, pour l'utiliser dans la composition d'une musique avec plusieurs instruments si possible en temps réel.
+
+les deux téléphones sont des téléphone androide basique, et le but et simuler les yeux humain pour estimer la position.
+
+Les solution possible est : 
+utiliser les deux téléphone comme capteur, après une phase de calibrage puis envoyer les données brut à un tierces (module de traitement sur un PC plus puissant et qui va faire office de sortie audio)
+
+tout est embarqué dans le téléphone dont un joue le module secondaire et un principale qui expose directement le resultat audio ou par bluethut sur une anceinte externe.
+
+reste concis tout en indiquant des consigne technique clair.

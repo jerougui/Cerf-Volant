@@ -1,0 +1,10 @@
+openspec propose "Initialiser une proposition pour une solution simple de suivi d’un cerf-volant utilisant un seul téléphone Android. Le téléphone utilise sa caméra pour détecter et suivre un objet spécifique (le cerf-volant) après une phase de calibration initiale. L’objectif est d’estimer en temps réel la position approximative en 3D (distance, hauteur, direction) ainsi que la vitesse, afin d’alimenter un module de génération musicale en direct.
+
+Le système doit inclure : 
+- une phase de calibration (distance initiale, taille apparente de l’objet, angle de caméra),
+- un module de détection visuelle de l’objet,
+- une estimation 3D simplifiée basée sur la taille apparente, la perspective et le mouvement relatif,
+- un module de calcul de vitesse et direction,
+- une sortie audio générée localement ou envoyée via Bluetooth.
+
+Décrire les modules logiciels, les algorithmes possibles (tracking visuel, estimation de profondeur monoculaire), les contraintes techniques, les limites de précision, et proposer une architecture initiale concise et claire."

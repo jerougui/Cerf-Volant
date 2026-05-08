@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kite Tracker</string>
+    <string name="calibrate">Calibrer</string>
+    <string name="start_tracking">Démarrer suivi</string>
+    <string name="stop">Arrêt</string>
+    <string name="distance">Distance</string>
+    <string name="height">Hauteur</string>
+    <string name="speed">Vitesse</string>
+    <string name="fps">IPS</string>
+    <string name="settings">Paramètres</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="calibration_title">Calibration</string>
+    <string name="enter_distance">Entrez la distance au cerf-volant (m)</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="warning_too_close">Veuillez reculer (minimum 5m)</string>
+    <string name="warning_low_confidence">Confiance faible, recalibrez</string>
+</resources>
