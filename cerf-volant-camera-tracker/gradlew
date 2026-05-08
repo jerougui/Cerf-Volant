@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# Gradle wrapper script for Unix
+
+# Resolve the location of the wrapper jar
+WRAPPER_JAR="gradle/wrapper/gradle-wrapper.jar"
+
+# Check for Java
+if [ -n "$JAVA_HOME" ]; then
+    JAVA_EXE="$JAVA_HOME/bin/java"
+else
+    JAVA_EXE=java
+fi
+
+# Verify Java is available
+$JAVA_EXE -version >/dev/null 2>&1 || {
+    echo "Java is not installed or not in PATH."
+    echo "Please install Java 17 or higher (https://adoptium.net/)."
+    exit 1
+}
+
+# Run Gradle wrapper
+if [ ! -f "$WRAPPER_JAR" ]; then
+    echo "Gradle wrapper jar not found at $WRAPPER_JAR"
+    exit 1
+fi
+
+exec "$JAVA_EXE" -classpath "$WRAPPER_JAR" org.gradle.wrapper.GradleWrapperMain "$@"
